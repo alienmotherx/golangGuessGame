@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("Welcome to Guess The Number")
 	fmt.Printf("Please input your name: ")
 	fmt.Scan(&name)
-	fmt.Println("Hello", name, ("\n This is the number guessing game.\n You have 3 chances to guess the right number."))
+	fmt.Println("Hello", name, ("\n This is the number guessing game.\n You have 3 chances to guess the right number between 1 and 10."))
 
 	//Generate a random number
 	source := rand.NewSource(time.Now().UnixNano())
