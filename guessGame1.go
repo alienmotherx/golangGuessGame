@@ -14,7 +14,7 @@ func main() {
 	fmt.Scan(&name)
 	fmt.Println("Hello", name, ("\n This is the number guessing game.\n You have 3 chances to guess the right number."))
 
-	// generate a random number
+	//Generate a random number
 	source := rand.NewSource(time.Now().UnixNano())
 	randomizer := rand.New(source)
 	secretNumber := randomizer.Intn(10)
